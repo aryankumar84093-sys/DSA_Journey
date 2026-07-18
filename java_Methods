@@ -15,7 +15,7 @@ public class BinaryToDecimal {
         binaryToDec(11111);
     }
 }
-
+//-------------------------------------------------------------------------------------
 
 //Decimal to Binary Conversion
 public class DecimatToBinary {
@@ -33,5 +33,18 @@ public class DecimatToBinary {
     }
 }
 
+//-------------------------------------------------------------------------------------
+
+// Write a Java method to compute the average of three numbers
+ public class MethodsPractice {
+    public static void avg(int a,int b,int c){
+        int sum = (a+b+c);
+        float avg = (float)sum/3;
+        System.out.println("Average of Three no "+a+","+b+","+c+" is "+avg);
+    }
+    public static void main(String args[]){
+        avg(30,60,9);
+    }
+}
 
 "DAY 1: Added Java Methods Parctice"

@@ -47,4 +47,30 @@ public class DecimatToBinary {
     }
 }
 
+//-------------------------------------------------------------------------------------
+
+//Checking for Palindrome
+public class Palindrome {
+    public static void checkPalindrome(int n){
+        int org = n;
+        int rev =0;
+        while(n!=0){
+            int digit = n % 10;
+            rev = (rev * 10) + digit;
+            n=n/10;
+        }
+        System.out.println(rev);
+        if(org==rev){
+            System.out.println("Palindrome");
+        }
+        else{
+            System.out.println("Not Palindrome");
+        }
+    }
+    public static void main(String args[]){
+        checkPalindrome(1211);
+    }
+}
+
+
 "DAY 1: Added Java Methods Parctice"

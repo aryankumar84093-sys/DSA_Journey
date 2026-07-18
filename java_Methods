@@ -1,0 +1,37 @@
+//Binary to Decimal Conversion
+public class BinaryToDecimal {
+    public static void binaryToDec(int n){
+        int pow=0;
+        int dec = 0;
+        while(n!=0){
+            int digit = n % 10;
+            n /= 10;
+            dec = dec + (digit * (int)(Math.pow(2,pow)));
+            pow++;
+        }
+        System.out.println(dec);
+    }
+    public static void main(String args[]){
+        binaryToDec(11111);
+    }
+}
+
+
+//Decimal to Binary Conversion
+public class DecimatToBinary {
+    public static void decToBin(int n){
+        int bin = 0;
+        while(n!=0){
+            int rem = n % 2;
+            n = n/2;
+            bin = (bin*10) + rem;
+        }
+        System.out.println(bin);
+    }
+    public static void main(String args[]){
+        decToBin(7);
+    }
+}
+
+
+"DAY 1: Added Java Methods Parctice"

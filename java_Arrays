@@ -128,8 +128,8 @@ public class SubArrays {
                 count++;
             }
             System.out.println();
-            System.out.print("Total SubArrays: "+count);
         }
+         System.out.print("Total SubArrays: "+count);
     }
     public static void main(String args[]){
         int num[]={2,4,6,8,10};

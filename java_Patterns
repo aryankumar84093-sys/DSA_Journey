@@ -15,3 +15,24 @@ public class Pattern1 {
         }
     }
 }
+
+//-----------------------------------------------------------------------------------------------------------------
+
+* * * * * 
+* * * * 
+* * *       
+* * 
+* 
+
+public class Pattern2 {
+    public static void main(String args[]){
+    //Inverted Star Pattern
+        for(int i=5;i>=1;i--){
+            for(int star=1;star<=i;star++){
+                System.out.print("* ");
+            }
+            System.out.println();
+        }
+    }
+}
+
